@@ -431,8 +431,18 @@ body {
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
+.step-img1 {
+  width: 100%;
+}
 .step-img {
   width: 35%;
+}
+.step-img-box1 {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .step-img-box {
   position: relative;
