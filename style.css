@@ -405,6 +405,9 @@ body {
 }
 
 /* HOW IT WORKS */
+.section-how {
+  padding: 9.6rem 0;
+}
 .grid--center-v {
   align-items: center;
 }
