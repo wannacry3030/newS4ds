@@ -33,7 +33,7 @@ body {
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #e7f5ff;
+  background-color: #111;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
@@ -160,22 +160,7 @@ body {
   color: #ff3333;
   font-weight: 700;
 }
-/* MOBILE */
-.btn-mobile-nav {
-  border: none;
-  background: none;
-  cursor: pointer;
 
-  display: none;
-}
-.icon-mobile-nav {
-  height: 4.8rem;
-  width: 4.8rem;
-  color: #333;
-}
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
-}
 /* ************* */
 /* HEADER */
 /* ************* */
@@ -498,4 +483,20 @@ body {
   font-size: 2rem;
   line-height: 1.6;
 }
+
 /* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
