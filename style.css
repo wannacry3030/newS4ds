@@ -309,12 +309,12 @@ body {
 
 /* BOTAO 2*/
 .button {
-  --black: #000000;
-  --ch-black: #141414;
-  --eer-black: #1b1b1b;
-  --night-rider: #2e2e2e;
+  --black: #111;
+  --ch-black: #111;
+  --eer-black: #111;
+  --night-rider: #a20606;
   --white: #ff0000;
-  --af-white: #ff0000;
+  --af-white: #a20606;
   --ch-white: #ff0000;
   display: inline-block;
   font-size: 2rem;
@@ -352,11 +352,11 @@ body {
     var(--ch-black),
     var(--ch-black)
   );
-  background-size: 700%;
+  background-size: 7000%;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  animation: steam 15s linear infinite;
+  animation: steam 20s linear infinite;
 }
 
 @keyframes steam {
