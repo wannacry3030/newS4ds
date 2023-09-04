@@ -423,7 +423,7 @@ body {
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: #ddd;
+  color: #ff2626;
   margin-bottom: 1.2rem;
 }
 .heading-tertiary {
@@ -493,12 +493,7 @@ body {
   background-color: #fae5d3;
   z-index: -1;
 }
-.step-number {
-  font-size: 8.6rem;
-  font-weight: 600;
-  color: #ccc;
-  margin-bottom: 1.2rem;
-}
+
 .step-description {
   font-size: 2rem;
   line-height: 1.6;
