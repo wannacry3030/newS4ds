@@ -124,6 +124,7 @@ body {
   max-width: 70rem;
   margin: 0 auto;
   align-items: center;
+  text-align: center;
   gap: 9.6rem 0;
   padding: 0 3.2rem;
 }
@@ -303,33 +304,6 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-/* BOTAO 2*/
-.button {
-  --black: #111;
-  --ch-black: #111;
-  --eer-black: #111;
-  --night-rider: #a20606;
-  --white: #ff0000;
-  --af-white: #a20606;
-  --ch-white: #ff0000;
-  display: inline-block;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  /* gap: 10px; */
-  margin-right: 12px;
-  border: none;
-  color: white;
-  position: relative;
-  cursor: pointer;
-  transition-duration: 0.2s;
-  background-color: var(--ch-black);
-}
-
 .button:before,
 .button:after {
   content: "";
@@ -372,6 +346,7 @@ body {
 .button:after {
   filter: blur(50px);
 }
+*/
 
 /* featured in */
 .section-featured {
@@ -700,4 +675,81 @@ svg {
 }
 .grid:not(:last-child) {
   margin-bottom: 5.6rem;
+}
+/* BOTAO CTA MEDIO */
+.centro {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 15.5rem;
+}
+.btn2 {
+  --glow-color: rgb(255, 26, 26, 0.8);
+  --glow-spread-color: rgba(255, 0, 0, 0.6);
+  --enhanced-glow-color: rgb(255, 102);
+  --btn-color: rgb(153, 0, 0, 0.6);
+  border: 0.25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn2::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: 0.7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.btn2:hover {
+  color: #fff;
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+}
+
+.btn2:active {
+  box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+    0 0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 0.5em 0.25em var(--glow-color);
+}
+/* wpp  */
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #1d2b64;
+  z-index: 100;
+}
+.whatsapp:hover {
+  background-color: #fff;
+  color: #25d366;
+}
+.my-float {
+  margin-top: 16px;
 }

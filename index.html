@@ -18,12 +18,22 @@
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
-
+    <link
+    href="https://components.mywebsitebuilder.com/fonts/font-awesome.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
     <title>S4ds</title>
   </head>
   <body>
+    <a aria-label="icone do whatsapp, converse conosco e tire duvidas"
+    href="https://s4ds.com.br/contato.html"
+      class="whatsapp"
+      target="_blank" onclick="sendConversionEvent();"
+    >
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <header class="header">
       <a href="#">
         <img class="logo" alt="matheus martins logo" src="assets/logo.png"
@@ -58,7 +68,9 @@
         </div>
 
         <div class="hero">
-          <div class="hero-text-box">
+          <div class="hero-text-box"> <h1 class="heading-tertiary">
+            Você ainda não está trabalhando no digital?
+          </h1>
             <h1 class="heading-primary">
               Cansou de esperar clientes caírem do céu?
             </h1>
@@ -68,7 +80,7 @@
             </p>
             
 
-            <button class="button ">Fale conosco</button>
+            <button class="btn2 ">Fale conosco</button>
            
 
             <div class="delivered-meals">
@@ -209,6 +221,8 @@
           </div>
         </div>
       </section>
+      <button class="btn2 centro"> Quero atrair mais clientes
+      </button>
       <div class="container ">
         <aside id="why" class="plan-details"></aside>
         <h2 class="heading-secondary">POR QUE CONTRATAR A S4DS</h2>
