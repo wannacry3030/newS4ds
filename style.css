@@ -677,3 +677,6 @@ svg {
 .footer-link:active {
   color: #555;
 }
+.grid:not(:last-child) {
+  margin-bottom: 15.6rem;
+}
