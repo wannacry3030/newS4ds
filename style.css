@@ -534,14 +534,14 @@ svg {
   display: grid;
   /* 2/3 = 66.6% + 1/3 = 33.3% */
   grid-template-columns: 2fr 1fr;
-  /* background-color: #e67e22; */
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(to right bottom, #ff5c5c, #ff4747);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 48, 73, 0.4);
+  background-image: linear-gradient(to right bottom, #d62828, #003049);
   overflow: hidden;
+  border-radius: 9px;
 }
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #030d15;
+  color: #ffffff;
 }
 .cta .heading-secondary {
   /* color: #45260a; */
@@ -562,10 +562,10 @@ svg {
     url("../assets/cta.jpg"); */
   background-image: linear-gradient(
       to right bottom,
-      rgba(255, 51, 51, 0.35),
-      rgba(153, 31, 31, 0.35)
+      rgba(214, 40, 40, 0.35),
+      rgba(0, 48, 73, 0.35)
     ),
-    url("assets/cta.jpg");
+    url("assets/cta2.jpg");
   background-size: cover;
   background-position: center;
 }
