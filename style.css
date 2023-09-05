@@ -399,6 +399,9 @@ body {
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+.grid--4-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -499,4 +502,34 @@ body {
 }
 .icon-mobile-nav[name="close-outline"] {
   display: none;
+}
+/* FEATURE  */
+.feature-icon {
+  color: #f81e1e;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fff;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.hydrated {
+  visibility: inherit;
+}
+.icon-inner,
+.ionicon,
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
